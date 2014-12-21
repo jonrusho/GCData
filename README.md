@@ -7,12 +7,12 @@ run_analysis.R
 
 Reads in data from the UCI HAR dataset.   The data files should be located in the same directory as run_analysis.R
 
-#subject_test.txt   subject number, test set
-#subject_train.txt  subject number, training set
-#X_test.txt         activity data, test set
-#X_train.txt        activity data, training set
-#y_test.txt         activity code, test set
-#y_train.txt        activity code, training set
+subject_test.txt   subject number, test set
+subject_train.txt  subject number, training set
+X_test.txt         activity data, test set
+X_train.txt        activity data, training set
+y_test.txt         activity code, test set
+y_train.txt        activity code, training set
 
 Additionally, the activity and feature names need to be in the same directory as well.
 activity_labels.txt
