@@ -1,3 +1,7 @@
+# analyze sensor data from the UCI HAR Dataset
+# all data files should be in the same directory as this script
+
+
 # turn off warnings
 options(warn=-1)
 # read in the following files
@@ -7,7 +11,8 @@ options(warn=-1)
 #X_train.txt        activity data, training set
 #y_test.txt         activity code, test set
 #y_train.txt        activity code, training set
-#
+#activity_labels.txt names of the activities
+#features.txt       column names for the data in the activity data files
 
 testsubj <- read.table("subject_test.txt")
 trainsubj <- read.table("subject_train.txt")
